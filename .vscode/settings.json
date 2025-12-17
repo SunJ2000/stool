@@ -5,6 +5,9 @@
   "prettier.prettierPath": "./node_modules/prettier",
   "prettier.requireConfig": true,
   "prettier.useEditorConfig": false,
+  "files.eol": "\n",
+  "files.autoGuessEncoding": false,
+  "files.encoding": "utf8",
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   }

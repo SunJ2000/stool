@@ -2,7 +2,7 @@ import { Controller, Post, Body, BadRequestException } from '@nestjs/common';
 import { AiTokenService } from './aitoken.service';
 import { TiktokenModel } from 'tiktoken';
 
-@Controller('api/aitoken')
+@Controller('aitoken')
 export class AiTokenController {
   constructor(private readonly aiTokenService: AiTokenService) {}
   @Post()

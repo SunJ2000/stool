@@ -1,7 +1,6 @@
 import {
   Controller,
   Post,
-  Body,
   BadRequestException,
   UseInterceptors,
   UploadedFile,
@@ -10,7 +9,7 @@ import {
 import { ImageProcessService } from './imageProcess.serveice';
 import { FileInterceptor } from '@nestjs/platform-express';
 
-@Controller('api/image')
+@Controller('image')
 export class ImageProcessController {
   constructor(private readonly ImageProcessService: ImageProcessService) {}
   @Post('grayscale')
